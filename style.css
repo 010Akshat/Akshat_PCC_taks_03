@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+    color: white;
+    font-family: cursive;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:hsl(216, 12%, 8%);
+}
+.container{
+    background-color: hsl(213, 19%, 18%);
+    padding: 1.5rem;
+    border-radius: 2rem;
+}
+.circle{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: hsl(217, 12%, 25%);
+    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    margin-top: 15px;
+    padding: 10px;
+}
+.content > h1{
+    font-weight: 400;
+    font-size: 25px;
+    margin-bottom: 8px;
+}
+.content > p{
+    font-weight: 100;
+    font-size: 14px;
+    line-break: normal;
+    color: hsl(217, 12%, 63%);
+}
+.numbers{
+    margin-top: 10px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.mark{
+    height: 30px;
+    width: 14%;
+    background-color: hsl(217, 12%, 25%);
+    display: flex;
+    color:  hsl(216, 12%, 54%);
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.mark:hover{
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    cursor: pointer;
+}
+.submit{
+    height: 35px;
+    background-color: hsl(25, 97%, 53%);
+    margin-top: 15px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.submit:hover{
+    background-color: white;
+    cursor: pointer;
+}
+.submit:hover > h4{
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+}
+.press{
+    background-color: hsl(25, 97%, 53%);
+}
+.feedback{
+    background-color: hsl(213, 19%, 18%);
+    padding: 1.5rem;
+    border-radius: 2rem;
+    text-align: center;
+}
+.msg{
+    background-color: hsl(217, 12%, 25%);
+    padding: 5px;
+    border-radius: 20px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-top: 1rem;   
+    /* text-align: center; */
+}
+.msg > p{
+    color: hsl(25, 97%, 53%);
+    display: inline;
+    font-size: 15px;
+}
+.finalMsg{
+    text-align: center;
+    margin-top: 15px;
+}
+.finalMsg >h2{
+    font-weight: 100;
+    font-size: 20px;
+}
+.finalMsg >p{
+    margin-top: 5px;
+    font-weight: 50;
+    font-size: 12px;
+}
+.hidden{
+    display: none;
+}
+
+
+
+
